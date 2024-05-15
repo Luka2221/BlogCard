@@ -1,0 +1,55 @@
+@import './colors.css';
+@import './fonts.css';
+body{
+    background-color: var(--yellow);
+    font-family: var(--roboto);
+}
+
+/* Main Card Functions */
+.Card{
+    margin: auto;
+    width: 384px;
+    padding: 24px;
+    box-sizing: border-box;
+    background-color: var(--white);
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 5px 10px;
+}
+/* H1 Text HTML $ CSS FOUNDATIONS */
+.MainText{
+    font-size: 29px;
+}
+/* Main Photo */
+.Image1{
+    width: 336px;
+}
+/* Learning Div Code */
+.LearningDiv{
+    margin-top: 24px;
+    width: 82px;
+    height: 29px;
+    background-color: var(--yellow);
+    text-align: center;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Desctription txt Color */
+.PtxtColor{
+    color: var(--grey);
+}
+/*icon and name  */
+.IconandP{
+  margin-top: 24px;  
+  display: flex
+}
+/* name */
+.ManName{
+    display: inline-block;
+    margin-left: 12px;
+}
+/* H1 Main Text Hover */
+.MainText:hover{
+       color: var(--yellow);
+}
